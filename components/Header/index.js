@@ -22,6 +22,7 @@ function Header() {
     h1Tittle.textContent = 'Lambda Times';
 
     const spanTemp = document.createElement('span')
+    spanTemp.className = 'temp'
     spanTemp.textContent = '98';
 
     divHeader.appendChild(spanDate);
